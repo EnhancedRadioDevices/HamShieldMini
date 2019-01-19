@@ -1,0 +1,7 @@
+### Module positions - created on 09/16/18 16:03:38 ###
+### Printed by Pcbnew version kicad (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                        PosX       PosY       Rot  Side
+JP3       M04PTH    PinHeader_SMT_rightAngle_0.1inPitch_4pos   -59.6000    19.1000  180.0000  bottom
+## End
