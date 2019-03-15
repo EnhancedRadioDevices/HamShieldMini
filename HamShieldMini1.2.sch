@@ -181,12 +181,12 @@ S 1500 700  1200 1500
 U 52091E5F
 F0 "User Interface" 60
 F1 "UserInterface.sch" 60
-F2 "SCLK" O L 1500 2050 60 
-F3 "SDIO" B L 1500 1900 60 
+F2 "CLK" O L 1500 2050 60 
+F3 "DAT" B L 1500 1900 60 
 F4 "PDN" O R 2700 850 60 
 F5 "AFOUT" I L 1500 850 60 
 F6 "MIC_IN" O L 1500 1000 60 
-F7 "nSEN" I L 1500 1750 60 
+F7 "nCS" I L 1500 1750 60 
 F8 "MODE" I L 1500 1600 60 
 $EndSheet
 $Comp
@@ -387,13 +387,13 @@ PDN
 Text Label 7150 3050 2    60   ~ 0
 PDN
 Text Label 2500 3300 0    60   ~ 0
-SCLK
+CLK
 Text Label 2500 3550 0    60   ~ 0
-SDIO
+DAT
 Text Label 750  2050 0    60   ~ 0
-SCLK
+CLK
 Text Label 750  1900 0    60   ~ 0
-SDIO
+DAT
 Wire Wire Line
 	5800 900  5800 2350
 Wire Wire Line
@@ -679,11 +679,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 4550 3400 4550
 Text Label 2950 4800 0    60   ~ 0
-nSEN
+nCS
 Wire Wire Line
 	1500 1750 750  1750
 Text Label 750  1750 0    60   ~ 0
-nSEN
+nCS
 Text Label 2950 4550 0    60   ~ 0
 MODE
 Wire Wire Line

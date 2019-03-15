@@ -43,9 +43,9 @@ MIC_IN
 Text HLabel 4200 4600 0    60   Input ~ 0
 AFOUT
 Text HLabel 1050 2900 0    60   Input ~ 0
-SCLK
+CLK
 Text HLabel 1050 2450 0    60   Input ~ 0
-SDIO
+DAT
 Text HLabel 1050 7550 2    60   Input ~ 0
 PDN
 $Comp
@@ -316,7 +316,7 @@ F 3 "" H 2900 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1050 2000 0    60   Input ~ 0
-nSEN
+nCS
 $Comp
 L power:VCC #PWR086
 U 1 1 56B2DB51
