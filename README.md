@@ -20,7 +20,7 @@ The pinout should be:
 
     1	- SPKR - Arduino Pin A2
     2	- MIC  - Arduino Pin D3
-    3	- CLK  - Arduino Pin A6
+    3	- CLK  - Arduino Pin A5
     4	- nCS  - Arduino Pin A1
     5	- DAT  - Arduino Pin A4
     6	- GND  - Arduino Pin GND
