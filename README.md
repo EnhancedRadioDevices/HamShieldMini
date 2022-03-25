@@ -40,5 +40,5 @@ The pinout should be:
     3	- CLK  - RPi Pin 15 (wiringPi3)
     4	- nCS  - RPi Pin 11 (wiringPi0)
     5	- DAT  - RPi Pin 13 (wiringPi2)
-    6	- GND  - RPi Pin 1 (3.3V)
-    7	- VCC  - RPi Pin 6 (GND)
+    6	- GND  - RPi Pin 6 (GND)
+    7	- VCC  - RPi Pin 1 (3.3V)
